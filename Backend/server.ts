@@ -40,7 +40,7 @@ app.use(session({
 app.use(express.json()); // Middleware to parse JSON bodies for all requests
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000', "https://autothumb-ai-platform.vercel.app", "https://autothumb-server.vercel.app"],
+    origin: ['http://localhost:5173', 'http://localhost:3000', "https://autothumb-ai-frontend.onrender.com"],
     credentials: true,
 })); // Enable CORS for all routes
 
