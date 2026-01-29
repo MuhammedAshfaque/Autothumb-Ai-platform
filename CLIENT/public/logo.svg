@@ -1,0 +1,47 @@
+<svg
+  width="220"
+  height="48"
+  viewBox="0 0 220 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Icon background -->
+  <rect x="0" y="4" width="40" height="40" rx="10" fill="#2563EB"/>
+
+  <!-- Play icon -->
+  <path
+    d="M16 14L28 24L16 34V14Z"
+    fill="white"
+  />
+
+  <!-- Spark (AI touch) -->
+  <path
+    d="M30 10L32 14L36 16L32 18L30 22L28 18L24 16L28 14L30 10Z"
+    fill="#BFDBFE"
+  />
+
+  <!-- Text -->
+  <text
+    x="54"
+    y="30"
+    font-size="22"
+    font-weight="700"
+    fill="#111827"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  >
+    AutoThumb
+  </text>
+
+  <!-- AI badge -->
+  <rect x="168" y="14" rx="6" ry="6" width="36" height="20" fill="#2563EB"/>
+  <text
+    x="176"
+    y="29"
+    font-size="12"
+    font-weight="700"
+    fill="white"
+    font-family="Inter, system-ui, sans-serif"
+  >
+    AI
+  </text>
+</svg>
