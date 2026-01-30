@@ -83,7 +83,7 @@ const MyGeneration = () => {
 
         {/* Grid */}
         {!loading && thumbnails.length > 0 && (
-          <div>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5'>
             {thumbnails.map((thumb: IThumbnail)=>{
               const aspectClass = aspectRatioClassMap[thumb.aspect_ratio || '16:9'];
               return (
